@@ -1,0 +1,35 @@
+java.io.IOException: File already exists:s3://ljcmr/project/10machine/kmeans2/newCentroids/part-r-00001
+	at org.apache.hadoop.fs.s3native.NativeS3FileSystem.create(NativeS3FileSystem.java:647)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:557)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:538)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:445)
+	at org.apache.hadoop.mapreduce.lib.output.TextOutputFormat.getRecordWriter(TextOutputFormat.java:128)
+	at org.apache.hadoop.mapred.ReduceTask$NewTrackingRecordWriter.<init>(ReduceTask.java:583)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:652)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:426)
+	at org.apache.hadoop.mapred.Child$4.run(Child.java:255)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1132)
+	at org.apache.hadoop.mapred.Child.main(Child.java:249)
+
+attempt_201411301631_0185_r_000001_0: SLF4J: Class path contains multiple SLF4J bindings.
+attempt_201411301631_0185_r_000001_0: SLF4J: Found binding in [jar:file:/home/hadoop/lib/slf4j-log4j12-1.7.4.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+attempt_201411301631_0185_r_000001_0: SLF4J: Found binding in [jar:file:/mnt/var/lib/hadoop/mapred/taskTracker/hadoop/jobcache/job_201411301631_0185/jars/job.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+attempt_201411301631_0185_r_000001_0: SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+attempt_201411301631_0185_r_000001_0: SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+java.io.IOException: File already exists:s3://ljcmr/project/10machine/kmeans2/newCentroids/part-r-00001
+	at org.apache.hadoop.fs.s3native.NativeS3FileSystem.create(NativeS3FileSystem.java:647)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:557)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:538)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:445)
+	at org.apache.hadoop.mapreduce.lib.output.TextOutputFormat.getRecordWriter(TextOutputFormat.java:128)
+	at org.apache.hadoop.mapred.ReduceTask$NewTrackingRecordWriter.<init>(ReduceTask.java:583)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:652)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:426)
+	at org.apache.hadoop.mapred.Child$4.run(Child.java:255)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1132)
+	at org.apache.hadoop.mapred.Child.main(Child.java:249)
+

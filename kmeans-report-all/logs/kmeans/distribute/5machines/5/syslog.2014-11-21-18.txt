@@ -1,0 +1,1482 @@
+2014-11-21 18:24:57,286 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/data/millionSongs.txt' for reading
+2014-11-21 18:24:57,586 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' in S3
+2014-11-21 18:24:57,823 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000 len:130 sec:0
+2014-11-21 18:24:57,885 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' in S3
+2014-11-21 18:24:57,957 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001 len:117 sec:0
+2014-11-21 18:24:58,007 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' in S3
+2014-11-21 18:24:58,067 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002 len:115 sec:0
+2014-11-21 18:24:58,115 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' in S3
+2014-11-21 18:24:58,152 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003 len:116 sec:0
+2014-11-21 18:24:58,200 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' in S3
+2014-11-21 18:24:58,231 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004 len:134 sec:0
+2014-11-21 18:24:58,429 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:24:58,572 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' in S3
+2014-11-21 18:24:58,623 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000 len:130 sec:0
+2014-11-21 18:24:58,640 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:24:58,691 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' in S3
+2014-11-21 18:24:58,745 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001 len:117 sec:0
+2014-11-21 18:24:58,759 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:24:58,813 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' in S3
+2014-11-21 18:24:58,875 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002 len:115 sec:0
+2014-11-21 18:24:58,903 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:24:58,996 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' in S3
+2014-11-21 18:24:59,028 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003 len:116 sec:0
+2014-11-21 18:24:59,041 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:24:59,098 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' in S3
+2014-11-21 18:24:59,133 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004 len:134 sec:0
+2014-11-21 18:24:59,218 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/newCentroids'
+2014-11-21 18:25:01,172 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-11-21 18:25:01,173 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 20
+2014-11-21 18:25:01,173 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-11-21 18:25:04,158 INFO org.apache.hadoop.security.ShellBasedUnixGroupsMapping (main): add hadoop to shell userGroupsCache
+2014-11-21 18:25:04,159 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-11-21 18:25:04,320 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-11-21 18:25:04,321 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/data/millionSongs.txt' for reading
+2014-11-21 18:25:06,808 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201411211822_0001
+2014-11-21 18:25:07,834 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-11-21 18:25:53,077 INFO org.apache.hadoop.mapred.JobClient (main):  map 10% reduce 0%
+2014-11-21 18:26:05,125 INFO org.apache.hadoop.mapred.JobClient (main):  map 20% reduce 0%
+2014-11-21 18:26:17,170 INFO org.apache.hadoop.mapred.JobClient (main):  map 30% reduce 0%
+2014-11-21 18:26:20,180 INFO org.apache.hadoop.mapred.JobClient (main):  map 40% reduce 0%
+2014-11-21 18:26:23,193 INFO org.apache.hadoop.mapred.JobClient (main):  map 50% reduce 1%
+2014-11-21 18:26:26,202 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 1%
+2014-11-21 18:26:29,219 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 2%
+2014-11-21 18:26:32,228 INFO org.apache.hadoop.mapred.JobClient (main):  map 70% reduce 2%
+2014-11-21 18:26:38,247 INFO org.apache.hadoop.mapred.JobClient (main):  map 80% reduce 4%
+2014-11-21 18:26:44,272 INFO org.apache.hadoop.mapred.JobClient (main):  map 90% reduce 4%
+2014-11-21 18:26:50,291 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 4%
+2014-11-21 18:26:51,294 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 10%
+2014-11-21 18:26:53,300 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 24%
+2014-11-21 18:26:56,315 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 30%
+2014-11-21 18:27:01,338 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 43%
+2014-11-21 18:27:02,346 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 96%
+2014-11-21 18:27:05,356 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-11-21 18:27:10,376 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201411211822_0001
+2014-11-21 18:27:10,424 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 29
+2014-11-21 18:27:10,424 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-11-21 18:27:10,425 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=7
+2014-11-21 18:27:10,425 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=287366
+2014-11-21 18:27:10,425 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-11-21 18:27:10,425 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-11-21 18:27:10,447 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=18
+2014-11-21 18:27:10,462 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=333610
+2014-11-21 18:27:10,462 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-11-21 18:27:10,462 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=1335
+2014-11-21 18:27:10,463 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-11-21 18:27:10,463 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=869479
+2014-11-21 18:27:10,463 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=970
+2014-11-21 18:27:10,463 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=1336331
+2014-11-21 18:27:10,463 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=2137640
+2014-11-21 18:27:10,464 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=1335
+2014-11-21 18:27:10,464 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-11-21 18:27:10,464 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=1330211
+2014-11-21 18:27:10,464 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-11-21 18:27:10,464 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=884481
+2014-11-21 18:27:10,464 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=10000
+2014-11-21 18:27:10,465 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=884481
+2014-11-21 18:27:10,465 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=20000
+2014-11-21 18:27:10,465 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=1263308
+2014-11-21 18:27:10,465 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=1652613120
+2014-11-21 18:27:10,469 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=24610
+2014-11-21 18:27:10,469 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-11-21 18:27:10,469 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=970
+2014-11-21 18:27:10,469 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=10000
+2014-11-21 18:27:10,469 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-11-21 18:27:10,469 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-11-21 18:27:10,469 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=2455506944
+2014-11-21 18:27:10,469 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-11-21 18:27:10,469 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=9667874816
+2014-11-21 18:27:10,469 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=10000
+2014-11-21 18:27:10,675 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' for reading
+2014-11-21 18:27:10,706 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' for reading
+2014-11-21 18:27:10,733 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' for reading
+2014-11-21 18:27:10,771 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' for reading
+2014-11-21 18:27:10,804 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' for reading
+2014-11-21 18:27:10,909 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:27:10,946 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:27:10,980 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:27:11,011 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:27:11,039 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:27:11,278 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/currentCentroids'
+2014-11-21 18:27:11,425 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:27:11,486 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' in S3
+2014-11-21 18:27:11,522 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000 len:257 sec:0
+2014-11-21 18:27:11,523 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:27:11,540 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' in S3
+2014-11-21 18:27:11,574 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001 len:275 sec:0
+2014-11-21 18:27:11,574 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:27:11,589 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' in S3
+2014-11-21 18:27:11,640 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002 len:258 sec:0
+2014-11-21 18:27:11,640 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:27:11,656 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' in S3
+2014-11-21 18:27:11,688 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003 len:271 sec:0
+2014-11-21 18:27:11,689 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:27:11,704 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' in S3
+2014-11-21 18:27:11,738 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004 len:274 sec:0
+2014-11-21 18:27:11,800 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/newCentroids'
+2014-11-21 18:27:12,008 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-11-21 18:27:12,008 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 20
+2014-11-21 18:27:12,008 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-11-21 18:27:14,332 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-11-21 18:27:14,386 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-11-21 18:27:14,393 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/data/millionSongs.txt' for reading
+2014-11-21 18:27:15,418 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201411211822_0002
+2014-11-21 18:27:16,420 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-11-21 18:28:14,632 INFO org.apache.hadoop.mapred.JobClient (main):  map 10% reduce 0%
+2014-11-21 18:28:26,685 INFO org.apache.hadoop.mapred.JobClient (main):  map 20% reduce 0%
+2014-11-21 18:28:35,713 INFO org.apache.hadoop.mapred.JobClient (main):  map 30% reduce 0%
+2014-11-21 18:28:38,722 INFO org.apache.hadoop.mapred.JobClient (main):  map 40% reduce 0%
+2014-11-21 18:28:44,741 INFO org.apache.hadoop.mapred.JobClient (main):  map 50% reduce 0%
+2014-11-21 18:28:47,754 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 0%
+2014-11-21 18:28:53,773 INFO org.apache.hadoop.mapred.JobClient (main):  map 70% reduce 0%
+2014-11-21 18:28:56,784 INFO org.apache.hadoop.mapred.JobClient (main):  map 70% reduce 4%
+2014-11-21 18:28:59,794 INFO org.apache.hadoop.mapred.JobClient (main):  map 90% reduce 4%
+2014-11-21 18:29:05,813 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 6%
+2014-11-21 18:29:08,822 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 10%
+2014-11-21 18:29:10,853 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 12%
+2014-11-21 18:29:11,856 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 21%
+2014-11-21 18:29:13,863 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 39%
+2014-11-21 18:29:14,867 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 83%
+2014-11-21 18:29:17,877 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 93%
+2014-11-21 18:29:20,889 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-11-21 18:29:25,915 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201411211822_0002_r_000001_1, Status : FAILED
+2014-11-21 18:29:25,988 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201411211822_0002
+2014-11-21 18:29:25,994 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 29
+2014-11-21 18:29:25,994 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-11-21 18:29:25,994 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=7
+2014-11-21 18:29:25,994 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=369216
+2014-11-21 18:29:25,994 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-11-21 18:29:25,994 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-11-21 18:29:25,994 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=17
+2014-11-21 18:29:25,995 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=328711
+2014-11-21 18:29:25,995 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-11-21 18:29:25,995 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=1323
+2014-11-21 18:29:25,995 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-11-21 18:29:25,995 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=869592
+2014-11-21 18:29:25,995 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=970
+2014-11-21 18:29:25,995 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=1346349
+2014-11-21 18:29:25,996 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=2134776
+2014-11-21 18:29:25,996 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=1323
+2014-11-21 18:29:25,996 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-11-21 18:29:25,996 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=1332999
+2014-11-21 18:29:25,996 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-11-21 18:29:25,996 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=881504
+2014-11-21 18:29:25,996 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=10000
+2014-11-21 18:29:25,997 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=881504
+2014-11-21 18:29:25,997 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=20000
+2014-11-21 18:29:25,997 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=1263308
+2014-11-21 18:29:25,997 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=1645785088
+2014-11-21 18:29:25,997 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=28940
+2014-11-21 18:29:25,997 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-11-21 18:29:25,997 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=970
+2014-11-21 18:29:25,997 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=10000
+2014-11-21 18:29:25,997 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-11-21 18:29:25,997 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-11-21 18:29:25,998 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=2490306560
+2014-11-21 18:29:25,998 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-11-21 18:29:25,998 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=9726488576
+2014-11-21 18:29:25,998 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=10000
+2014-11-21 18:29:26,224 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' for reading
+2014-11-21 18:29:26,247 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' for reading
+2014-11-21 18:29:26,269 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' for reading
+2014-11-21 18:29:26,292 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' for reading
+2014-11-21 18:29:26,314 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' for reading
+2014-11-21 18:29:26,370 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:29:26,395 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:29:26,417 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:29:26,440 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:29:26,463 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:29:26,611 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/currentCentroids'
+2014-11-21 18:29:26,729 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:29:26,742 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' in S3
+2014-11-21 18:29:26,768 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000 len:253 sec:0
+2014-11-21 18:29:26,769 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:29:26,781 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' in S3
+2014-11-21 18:29:26,821 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001 len:272 sec:0
+2014-11-21 18:29:26,822 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:29:26,837 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' in S3
+2014-11-21 18:29:26,896 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002 len:259 sec:0
+2014-11-21 18:29:26,897 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:29:26,910 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' in S3
+2014-11-21 18:29:26,950 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003 len:269 sec:0
+2014-11-21 18:29:26,950 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:29:26,964 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' in S3
+2014-11-21 18:29:27,005 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004 len:270 sec:0
+2014-11-21 18:29:27,317 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/newCentroids'
+2014-11-21 18:29:27,470 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-11-21 18:29:27,470 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 20
+2014-11-21 18:29:27,470 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-11-21 18:29:30,483 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-11-21 18:29:30,541 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-11-21 18:29:30,542 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/data/millionSongs.txt' for reading
+2014-11-21 18:29:31,237 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201411211822_0003
+2014-11-21 18:29:32,247 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-11-21 18:30:34,844 INFO org.apache.hadoop.mapred.JobClient (main):  map 10% reduce 0%
+2014-11-21 18:30:37,855 INFO org.apache.hadoop.mapred.JobClient (main):  map 20% reduce 0%
+2014-11-21 18:30:46,927 INFO org.apache.hadoop.mapred.JobClient (main):  map 30% reduce 0%
+2014-11-21 18:30:49,936 INFO org.apache.hadoop.mapred.JobClient (main):  map 40% reduce 0%
+2014-11-21 18:30:55,954 INFO org.apache.hadoop.mapred.JobClient (main):  map 50% reduce 0%
+2014-11-21 18:31:02,975 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 0%
+2014-11-21 18:31:04,989 INFO org.apache.hadoop.mapred.JobClient (main):  map 70% reduce 0%
+2014-11-21 18:31:15,023 INFO org.apache.hadoop.mapred.JobClient (main):  map 80% reduce 0%
+2014-11-21 18:31:17,030 INFO org.apache.hadoop.mapred.JobClient (main):  map 90% reduce 0%
+2014-11-21 18:31:18,033 INFO org.apache.hadoop.mapred.JobClient (main):  map 90% reduce 4%
+2014-11-21 18:31:24,068 INFO org.apache.hadoop.mapred.JobClient (main):  map 90% reduce 6%
+2014-11-21 18:31:27,082 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 6%
+2014-11-21 18:31:29,089 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 12%
+2014-11-21 18:31:32,098 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 18%
+2014-11-21 18:31:33,101 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 19%
+2014-11-21 18:31:35,106 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 39%
+2014-11-21 18:31:36,110 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 55%
+2014-11-21 18:31:38,115 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 81%
+2014-11-21 18:31:39,118 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 97%
+2014-11-21 18:31:42,127 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-11-21 18:31:46,143 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201411211822_0003_r_000004_1, Status : FAILED
+2014-11-21 18:31:47,220 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201411211822_0003
+2014-11-21 18:31:47,226 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 29
+2014-11-21 18:31:47,226 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-11-21 18:31:47,226 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=6
+2014-11-21 18:31:47,227 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=411455
+2014-11-21 18:31:47,227 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-11-21 18:31:47,227 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-11-21 18:31:47,227 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=18
+2014-11-21 18:31:47,227 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=311558
+2014-11-21 18:31:47,227 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-11-21 18:31:47,228 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=1332
+2014-11-21 18:31:47,228 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-11-21 18:31:47,228 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=869263
+2014-11-21 18:31:47,228 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=970
+2014-11-21 18:31:47,236 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=1353541
+2014-11-21 18:31:47,237 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=2139610
+2014-11-21 18:31:47,237 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=1332
+2014-11-21 18:31:47,237 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-11-21 18:31:47,237 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=1340311
+2014-11-21 18:31:47,237 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-11-21 18:31:47,237 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=886667
+2014-11-21 18:31:47,237 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=10000
+2014-11-21 18:31:47,238 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=886667
+2014-11-21 18:31:47,238 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=20000
+2014-11-21 18:31:47,238 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=1263308
+2014-11-21 18:31:47,238 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=1564577792
+2014-11-21 18:31:47,238 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=29410
+2014-11-21 18:31:47,238 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-11-21 18:31:47,238 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=970
+2014-11-21 18:31:47,238 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=10000
+2014-11-21 18:31:47,239 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-11-21 18:31:47,239 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-11-21 18:31:47,239 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=2485178368
+2014-11-21 18:31:47,239 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-11-21 18:31:47,239 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=9785253888
+2014-11-21 18:31:47,239 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=10000
+2014-11-21 18:31:47,385 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' for reading
+2014-11-21 18:31:47,415 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' for reading
+2014-11-21 18:31:47,446 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' for reading
+2014-11-21 18:31:47,477 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' for reading
+2014-11-21 18:31:47,507 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' for reading
+2014-11-21 18:31:47,574 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:31:47,607 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:31:47,640 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:31:47,668 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:31:47,703 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:31:47,882 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/currentCentroids'
+2014-11-21 18:31:48,027 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:31:48,048 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' in S3
+2014-11-21 18:31:48,230 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000 len:258 sec:0
+2014-11-21 18:31:48,231 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:31:48,251 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' in S3
+2014-11-21 18:31:48,282 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001 len:274 sec:0
+2014-11-21 18:31:48,282 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:31:48,297 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' in S3
+2014-11-21 18:31:48,336 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002 len:259 sec:0
+2014-11-21 18:31:48,336 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:31:48,352 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' in S3
+2014-11-21 18:31:48,385 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003 len:270 sec:0
+2014-11-21 18:31:48,385 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:31:48,403 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' in S3
+2014-11-21 18:31:48,450 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004 len:271 sec:0
+2014-11-21 18:31:48,515 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/newCentroids'
+2014-11-21 18:31:48,774 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-11-21 18:31:48,774 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 20
+2014-11-21 18:31:48,774 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-11-21 18:31:50,724 INFO org.apache.hadoop.security.ShellBasedUnixGroupsMapping (main): add hadoop to shell userGroupsCache
+2014-11-21 18:31:50,724 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-11-21 18:31:50,813 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-11-21 18:31:50,813 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/data/millionSongs.txt' for reading
+2014-11-21 18:31:51,473 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201411211822_0004
+2014-11-21 18:31:52,477 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-11-21 18:32:35,624 INFO org.apache.hadoop.mapred.JobClient (main):  map 10% reduce 0%
+2014-11-21 18:32:47,661 INFO org.apache.hadoop.mapred.JobClient (main):  map 20% reduce 0%
+2014-11-21 18:32:59,707 INFO org.apache.hadoop.mapred.JobClient (main):  map 30% reduce 0%
+2014-11-21 18:33:02,721 INFO org.apache.hadoop.mapred.JobClient (main):  map 40% reduce 0%
+2014-11-21 18:33:05,734 INFO org.apache.hadoop.mapred.JobClient (main):  map 50% reduce 2%
+2014-11-21 18:33:08,743 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 2%
+2014-11-21 18:33:14,772 INFO org.apache.hadoop.mapred.JobClient (main):  map 70% reduce 4%
+2014-11-21 18:33:20,790 INFO org.apache.hadoop.mapred.JobClient (main):  map 80% reduce 4%
+2014-11-21 18:33:26,809 INFO org.apache.hadoop.mapred.JobClient (main):  map 90% reduce 4%
+2014-11-21 18:33:29,825 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 12%
+2014-11-21 18:33:32,834 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 18%
+2014-11-21 18:33:35,843 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 37%
+2014-11-21 18:33:38,853 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 73%
+2014-11-21 18:33:41,862 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 93%
+2014-11-21 18:33:44,871 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-11-21 18:33:49,889 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201411211822_0004_r_000001_1, Status : FAILED
+2014-11-21 18:33:49,934 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201411211822_0004
+2014-11-21 18:33:49,939 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 29
+2014-11-21 18:33:49,939 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-11-21 18:33:49,939 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=7
+2014-11-21 18:33:49,939 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=364729
+2014-11-21 18:33:49,939 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-11-21 18:33:49,939 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-11-21 18:33:49,940 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=18
+2014-11-21 18:33:49,940 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=333952
+2014-11-21 18:33:49,940 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-11-21 18:33:49,940 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=1330
+2014-11-21 18:33:49,940 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-11-21 18:33:49,940 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=868748
+2014-11-21 18:33:49,940 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=970
+2014-11-21 18:33:49,940 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=1366603
+2014-11-21 18:33:49,941 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=2142036
+2014-11-21 18:33:49,941 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=1330
+2014-11-21 18:33:49,941 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-11-21 18:33:49,941 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=1353283
+2014-11-21 18:33:49,941 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-11-21 18:33:49,941 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=889608
+2014-11-21 18:33:49,942 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=10000
+2014-11-21 18:33:49,942 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=889608
+2014-11-21 18:33:49,942 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=20000
+2014-11-21 18:33:49,942 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=1263308
+2014-11-21 18:33:49,942 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=1642668032
+2014-11-21 18:33:49,943 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=26760
+2014-11-21 18:33:49,943 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-11-21 18:33:49,943 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=970
+2014-11-21 18:33:49,943 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=10000
+2014-11-21 18:33:49,943 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-11-21 18:33:49,943 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-11-21 18:33:49,943 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=2464690176
+2014-11-21 18:33:49,943 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-11-21 18:33:49,943 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=9712545792
+2014-11-21 18:33:49,943 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=10000
+2014-11-21 18:33:50,097 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' for reading
+2014-11-21 18:33:50,127 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' for reading
+2014-11-21 18:33:50,160 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' for reading
+2014-11-21 18:33:50,191 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' for reading
+2014-11-21 18:33:50,220 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' for reading
+2014-11-21 18:33:50,365 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:33:50,402 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:33:50,434 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:33:50,463 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:33:50,493 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:33:50,765 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/currentCentroids'
+2014-11-21 18:33:50,892 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:33:50,908 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' in S3
+2014-11-21 18:33:50,954 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000 len:255 sec:0
+2014-11-21 18:33:50,960 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:33:50,978 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' in S3
+2014-11-21 18:33:51,045 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001 len:272 sec:0
+2014-11-21 18:33:51,046 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:33:51,076 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' in S3
+2014-11-21 18:33:51,124 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002 len:259 sec:0
+2014-11-21 18:33:51,125 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:33:51,141 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' in S3
+2014-11-21 18:33:51,190 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003 len:273 sec:0
+2014-11-21 18:33:51,191 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:33:51,207 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' in S3
+2014-11-21 18:33:51,247 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004 len:271 sec:0
+2014-11-21 18:33:51,313 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/newCentroids'
+2014-11-21 18:33:51,491 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-11-21 18:33:51,491 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 20
+2014-11-21 18:33:51,491 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-11-21 18:33:53,002 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-11-21 18:33:53,060 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-11-21 18:33:53,061 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/data/millionSongs.txt' for reading
+2014-11-21 18:33:53,571 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201411211822_0005
+2014-11-21 18:33:54,572 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-11-21 18:34:45,727 INFO org.apache.hadoop.mapred.JobClient (main):  map 10% reduce 0%
+2014-11-21 18:35:03,783 INFO org.apache.hadoop.mapred.JobClient (main):  map 20% reduce 0%
+2014-11-21 18:35:12,818 INFO org.apache.hadoop.mapred.JobClient (main):  map 30% reduce 0%
+2014-11-21 18:35:15,829 INFO org.apache.hadoop.mapred.JobClient (main):  map 40% reduce 0%
+2014-11-21 18:35:21,859 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 0%
+2014-11-21 18:35:27,877 INFO org.apache.hadoop.mapred.JobClient (main):  map 70% reduce 0%
+2014-11-21 18:35:29,883 INFO org.apache.hadoop.mapred.JobClient (main):  map 80% reduce 0%
+2014-11-21 18:35:30,886 INFO org.apache.hadoop.mapred.JobClient (main):  map 80% reduce 4%
+2014-11-21 18:35:33,900 INFO org.apache.hadoop.mapred.JobClient (main):  map 90% reduce 4%
+2014-11-21 18:35:35,906 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 9%
+2014-11-21 18:35:39,919 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 10%
+2014-11-21 18:35:44,946 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 12%
+2014-11-21 18:35:45,950 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 39%
+2014-11-21 18:35:47,957 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 52%
+2014-11-21 18:35:48,960 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 73%
+2014-11-21 18:35:50,966 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 90%
+2014-11-21 18:35:51,970 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 97%
+2014-11-21 18:35:54,981 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-11-21 18:35:59,005 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201411211822_0005_r_000001_1, Status : FAILED
+2014-11-21 18:36:00,055 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201411211822_0005_r_000004_1, Status : FAILED
+2014-11-21 18:36:00,119 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201411211822_0005
+2014-11-21 18:36:00,138 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 29
+2014-11-21 18:36:00,138 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-11-21 18:36:00,138 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=7
+2014-11-21 18:36:00,139 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=262616
+2014-11-21 18:36:00,139 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-11-21 18:36:00,139 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-11-21 18:36:00,139 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=17
+2014-11-21 18:36:00,139 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=342315
+2014-11-21 18:36:00,140 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-11-21 18:36:00,140 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=1325
+2014-11-21 18:36:00,140 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-11-21 18:36:00,140 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=869815
+2014-11-21 18:36:00,140 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=970
+2014-11-21 18:36:00,141 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=1348235
+2014-11-21 18:36:00,141 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=2143858
+2014-11-21 18:36:00,141 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=1325
+2014-11-21 18:36:00,141 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-11-21 18:36:00,141 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=1334935
+2014-11-21 18:36:00,141 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-11-21 18:36:00,142 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=890363
+2014-11-21 18:36:00,142 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=10000
+2014-11-21 18:36:00,142 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=890363
+2014-11-21 18:36:00,151 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=20000
+2014-11-21 18:36:00,151 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=1263308
+2014-11-21 18:36:00,151 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=1681694720
+2014-11-21 18:36:00,152 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=29840
+2014-11-21 18:36:00,152 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-11-21 18:36:00,152 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=970
+2014-11-21 18:36:00,152 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=10000
+2014-11-21 18:36:00,152 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-11-21 18:36:00,152 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-11-21 18:36:00,152 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=2463322112
+2014-11-21 18:36:00,152 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-11-21 18:36:00,152 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=9685590016
+2014-11-21 18:36:00,152 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=10000
+2014-11-21 18:36:00,359 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' for reading
+2014-11-21 18:36:00,387 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' for reading
+2014-11-21 18:36:00,417 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' for reading
+2014-11-21 18:36:00,449 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' for reading
+2014-11-21 18:36:00,479 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' for reading
+2014-11-21 18:36:00,553 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:36:00,590 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:36:00,621 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:36:00,652 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:36:00,683 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:36:00,929 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/currentCentroids'
+2014-11-21 18:36:01,055 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:36:01,074 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' in S3
+2014-11-21 18:36:01,105 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000 len:256 sec:0
+2014-11-21 18:36:01,105 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:36:01,124 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' in S3
+2014-11-21 18:36:01,228 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001 len:270 sec:0
+2014-11-21 18:36:01,229 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:36:01,244 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' in S3
+2014-11-21 18:36:01,284 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002 len:258 sec:0
+2014-11-21 18:36:01,285 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:36:01,299 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' in S3
+2014-11-21 18:36:01,341 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003 len:270 sec:0
+2014-11-21 18:36:01,341 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:36:01,360 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' in S3
+2014-11-21 18:36:01,390 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004 len:271 sec:0
+2014-11-21 18:36:01,454 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/newCentroids'
+2014-11-21 18:36:01,646 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-11-21 18:36:01,646 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 20
+2014-11-21 18:36:01,646 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-11-21 18:36:05,393 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-11-21 18:36:05,449 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-11-21 18:36:05,449 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/data/millionSongs.txt' for reading
+2014-11-21 18:36:07,157 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201411211822_0006
+2014-11-21 18:36:08,159 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-11-21 18:36:48,296 INFO org.apache.hadoop.mapred.JobClient (main):  map 10% reduce 0%
+2014-11-21 18:37:00,332 INFO org.apache.hadoop.mapred.JobClient (main):  map 20% reduce 0%
+2014-11-21 18:37:15,379 INFO org.apache.hadoop.mapred.JobClient (main):  map 30% reduce 0%
+2014-11-21 18:37:18,393 INFO org.apache.hadoop.mapred.JobClient (main):  map 40% reduce 1%
+2014-11-21 18:37:21,403 INFO org.apache.hadoop.mapred.JobClient (main):  map 50% reduce 1%
+2014-11-21 18:37:24,412 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 2%
+2014-11-21 18:37:30,454 INFO org.apache.hadoop.mapred.JobClient (main):  map 70% reduce 2%
+2014-11-21 18:37:33,463 INFO org.apache.hadoop.mapred.JobClient (main):  map 70% reduce 4%
+2014-11-21 18:37:36,472 INFO org.apache.hadoop.mapred.JobClient (main):  map 80% reduce 4%
+2014-11-21 18:37:42,489 INFO org.apache.hadoop.mapred.JobClient (main):  map 90% reduce 4%
+2014-11-21 18:37:43,492 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 4%
+2014-11-21 18:37:45,498 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 10%
+2014-11-21 18:37:48,506 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 11%
+2014-11-21 18:37:49,509 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 28%
+2014-11-21 18:37:51,519 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 44%
+2014-11-21 18:37:52,522 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 58%
+2014-11-21 18:37:54,527 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 71%
+2014-11-21 18:37:55,530 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 84%
+2014-11-21 18:37:58,540 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 96%
+2014-11-21 18:38:04,557 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-11-21 18:38:05,563 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201411211822_0006_r_000001_1, Status : FAILED
+2014-11-21 18:38:06,688 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201411211822_0006_r_000002_1, Status : FAILED
+2014-11-21 18:38:11,977 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201411211822_0006
+2014-11-21 18:38:11,983 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 29
+2014-11-21 18:38:11,983 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-11-21 18:38:11,983 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=7
+2014-11-21 18:38:11,984 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=370225
+2014-11-21 18:38:11,984 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-11-21 18:38:11,984 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-11-21 18:38:11,984 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=18
+2014-11-21 18:38:11,984 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=365233
+2014-11-21 18:38:11,984 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-11-21 18:38:11,985 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=1326
+2014-11-21 18:38:11,985 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-11-21 18:38:11,985 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=868488
+2014-11-21 18:38:11,985 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=970
+2014-11-21 18:38:11,985 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=1341729
+2014-11-21 18:38:11,985 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=2142316
+2014-11-21 18:38:11,986 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=1326
+2014-11-21 18:38:11,986 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-11-21 18:38:11,986 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=1328479
+2014-11-21 18:38:11,986 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-11-21 18:38:11,999 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=890148
+2014-11-21 18:38:12,000 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=10000
+2014-11-21 18:38:12,000 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=890148
+2014-11-21 18:38:12,000 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=20000
+2014-11-21 18:38:12,000 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=1263308
+2014-11-21 18:38:12,000 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=1646317568
+2014-11-21 18:38:12,001 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=27090
+2014-11-21 18:38:12,001 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-11-21 18:38:12,001 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=970
+2014-11-21 18:38:12,001 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=10000
+2014-11-21 18:38:12,001 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-11-21 18:38:12,001 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-11-21 18:38:12,001 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=2511355904
+2014-11-21 18:38:12,001 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-11-21 18:38:12,001 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=9734152192
+2014-11-21 18:38:12,001 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=10000
+2014-11-21 18:38:12,139 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' for reading
+2014-11-21 18:38:12,172 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' for reading
+2014-11-21 18:38:12,276 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' for reading
+2014-11-21 18:38:12,306 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' for reading
+2014-11-21 18:38:12,339 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' for reading
+2014-11-21 18:38:12,401 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:38:12,439 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:38:12,468 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:38:12,492 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:38:12,518 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:38:12,749 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/currentCentroids'
+2014-11-21 18:38:12,900 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:38:12,917 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' in S3
+2014-11-21 18:38:13,038 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000 len:256 sec:0
+2014-11-21 18:38:13,038 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:38:13,074 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' in S3
+2014-11-21 18:38:13,115 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001 len:270 sec:0
+2014-11-21 18:38:13,115 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:38:13,133 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' in S3
+2014-11-21 18:38:13,189 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002 len:258 sec:0
+2014-11-21 18:38:13,190 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:38:13,206 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' in S3
+2014-11-21 18:38:13,265 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003 len:270 sec:0
+2014-11-21 18:38:13,266 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:38:13,289 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' in S3
+2014-11-21 18:38:13,334 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004 len:272 sec:0
+2014-11-21 18:38:13,464 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/newCentroids'
+2014-11-21 18:38:13,723 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-11-21 18:38:13,723 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 20
+2014-11-21 18:38:13,723 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-11-21 18:38:15,624 INFO org.apache.hadoop.security.ShellBasedUnixGroupsMapping (main): add hadoop to shell userGroupsCache
+2014-11-21 18:38:15,625 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-11-21 18:38:15,786 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-11-21 18:38:15,786 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/data/millionSongs.txt' for reading
+2014-11-21 18:38:16,495 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201411211822_0007
+2014-11-21 18:38:17,497 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-11-21 18:38:57,627 INFO org.apache.hadoop.mapred.JobClient (main):  map 10% reduce 0%
+2014-11-21 18:39:09,661 INFO org.apache.hadoop.mapred.JobClient (main):  map 20% reduce 0%
+2014-11-21 18:39:24,707 INFO org.apache.hadoop.mapred.JobClient (main):  map 30% reduce 0%
+2014-11-21 18:39:27,716 INFO org.apache.hadoop.mapred.JobClient (main):  map 40% reduce 2%
+2014-11-21 18:39:30,725 INFO org.apache.hadoop.mapred.JobClient (main):  map 50% reduce 2%
+2014-11-21 18:39:33,733 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 2%
+2014-11-21 18:39:36,754 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 3%
+2014-11-21 18:39:39,762 INFO org.apache.hadoop.mapred.JobClient (main):  map 70% reduce 3%
+2014-11-21 18:39:42,771 INFO org.apache.hadoop.mapred.JobClient (main):  map 70% reduce 4%
+2014-11-21 18:39:45,779 INFO org.apache.hadoop.mapred.JobClient (main):  map 80% reduce 4%
+2014-11-21 18:39:49,790 INFO org.apache.hadoop.mapred.JobClient (main):  map 80% reduce 5%
+2014-11-21 18:39:51,796 INFO org.apache.hadoop.mapred.JobClient (main):  map 90% reduce 6%
+2014-11-21 18:39:52,799 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 12%
+2014-11-21 18:39:55,806 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 25%
+2014-11-21 18:39:57,812 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 26%
+2014-11-21 18:39:58,815 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 50%
+2014-11-21 18:40:00,820 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 64%
+2014-11-21 18:40:01,823 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 70%
+2014-11-21 18:40:04,832 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 85%
+2014-11-21 18:40:07,842 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 99%
+2014-11-21 18:40:10,852 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-11-21 18:40:11,856 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201411211822_0007_r_000001_1, Status : FAILED
+2014-11-21 18:40:12,905 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201411211822_0007_r_000003_1, Status : FAILED
+2014-11-21 18:40:15,967 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201411211822_0007
+2014-11-21 18:40:15,974 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 29
+2014-11-21 18:40:15,974 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-11-21 18:40:15,974 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=7
+2014-11-21 18:40:15,974 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=358060
+2014-11-21 18:40:15,974 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-11-21 18:40:15,977 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-11-21 18:40:15,977 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=18
+2014-11-21 18:40:15,977 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=342381
+2014-11-21 18:40:15,977 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-11-21 18:40:15,978 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=1318
+2014-11-21 18:40:15,978 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-11-21 18:40:15,978 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=870639
+2014-11-21 18:40:15,978 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=970
+2014-11-21 18:40:15,978 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=1351879
+2014-11-21 18:40:15,978 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=2143352
+2014-11-21 18:40:15,979 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=1318
+2014-11-21 18:40:15,979 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-11-21 18:40:15,979 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=1338619
+2014-11-21 18:40:15,979 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-11-21 18:40:15,979 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=889033
+2014-11-21 18:40:15,979 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=10000
+2014-11-21 18:40:15,980 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=889033
+2014-11-21 18:40:15,980 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=20000
+2014-11-21 18:40:15,980 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=1263308
+2014-11-21 18:40:15,980 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=1645150208
+2014-11-21 18:40:16,017 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=25460
+2014-11-21 18:40:16,018 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-11-21 18:40:16,018 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=970
+2014-11-21 18:40:16,018 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=10000
+2014-11-21 18:40:16,018 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-11-21 18:40:16,018 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-11-21 18:40:16,018 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=2462978048
+2014-11-21 18:40:16,018 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-11-21 18:40:16,018 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=9712029696
+2014-11-21 18:40:16,018 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=10000
+2014-11-21 18:40:16,290 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' for reading
+2014-11-21 18:40:16,347 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' for reading
+2014-11-21 18:40:16,379 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' for reading
+2014-11-21 18:40:16,411 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' for reading
+2014-11-21 18:40:16,449 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' for reading
+2014-11-21 18:40:16,529 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:40:16,554 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:40:16,582 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:40:16,615 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:40:16,646 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:40:16,821 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/currentCentroids'
+2014-11-21 18:40:16,974 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:40:16,989 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' in S3
+2014-11-21 18:40:17,032 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000 len:257 sec:0
+2014-11-21 18:40:17,032 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:40:17,047 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' in S3
+2014-11-21 18:40:17,079 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001 len:269 sec:0
+2014-11-21 18:40:17,079 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:40:17,096 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' in S3
+2014-11-21 18:40:17,130 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002 len:255 sec:0
+2014-11-21 18:40:17,130 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:40:17,149 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' in S3
+2014-11-21 18:40:17,200 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003 len:270 sec:0
+2014-11-21 18:40:17,201 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:40:17,216 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' in S3
+2014-11-21 18:40:17,256 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004 len:267 sec:0
+2014-11-21 18:40:17,321 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/newCentroids'
+2014-11-21 18:40:17,527 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-11-21 18:40:17,527 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 20
+2014-11-21 18:40:17,527 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-11-21 18:40:19,157 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-11-21 18:40:19,284 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-11-21 18:40:19,285 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/data/millionSongs.txt' for reading
+2014-11-21 18:40:19,910 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201411211822_0008
+2014-11-21 18:40:20,912 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-11-21 18:41:04,041 INFO org.apache.hadoop.mapred.JobClient (main):  map 10% reduce 0%
+2014-11-21 18:41:19,083 INFO org.apache.hadoop.mapred.JobClient (main):  map 20% reduce 0%
+2014-11-21 18:41:31,119 INFO org.apache.hadoop.mapred.JobClient (main):  map 40% reduce 0%
+2014-11-21 18:41:37,135 INFO org.apache.hadoop.mapred.JobClient (main):  map 50% reduce 1%
+2014-11-21 18:41:40,144 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 1%
+2014-11-21 18:41:43,153 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 3%
+2014-11-21 18:41:46,162 INFO org.apache.hadoop.mapred.JobClient (main):  map 70% reduce 3%
+2014-11-21 18:41:52,186 INFO org.apache.hadoop.mapred.JobClient (main):  map 80% reduce 4%
+2014-11-21 18:41:56,211 INFO org.apache.hadoop.mapred.JobClient (main):  map 90% reduce 4%
+2014-11-21 18:41:58,216 INFO org.apache.hadoop.mapred.JobClient (main):  map 90% reduce 5%
+2014-11-21 18:41:59,219 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 6%
+2014-11-21 18:42:02,228 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 22%
+2014-11-21 18:42:05,236 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 30%
+2014-11-21 18:42:07,242 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 31%
+2014-11-21 18:42:08,245 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 53%
+2014-11-21 18:42:10,251 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 67%
+2014-11-21 18:42:11,255 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 99%
+2014-11-21 18:42:20,281 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-11-21 18:42:21,285 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201411211822_0008_r_000001_1, Status : FAILED
+2014-11-21 18:42:22,338 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201411211822_0008_r_000004_1, Status : FAILED
+2014-11-21 18:42:25,423 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201411211822_0008
+2014-11-21 18:42:25,447 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 29
+2014-11-21 18:42:25,447 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-11-21 18:42:25,448 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=7
+2014-11-21 18:42:25,448 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=369705
+2014-11-21 18:42:25,448 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-11-21 18:42:25,448 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-11-21 18:42:25,448 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=18
+2014-11-21 18:42:25,448 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=355697
+2014-11-21 18:42:25,448 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-11-21 18:42:25,449 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=1330
+2014-11-21 18:42:25,449 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-11-21 18:42:25,449 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=869761
+2014-11-21 18:42:25,449 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=970
+2014-11-21 18:42:25,449 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=1335607
+2014-11-21 18:42:25,449 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=2141485
+2014-11-21 18:42:25,449 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=1330
+2014-11-21 18:42:25,449 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-11-21 18:42:25,450 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=1322427
+2014-11-21 18:42:25,450 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-11-21 18:42:25,450 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=888044
+2014-11-21 18:42:25,450 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=10000
+2014-11-21 18:42:25,450 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=888044
+2014-11-21 18:42:25,450 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=20000
+2014-11-21 18:42:25,450 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=1263308
+2014-11-21 18:42:25,451 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=1639292928
+2014-11-21 18:42:25,479 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=29270
+2014-11-21 18:42:25,479 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-11-21 18:42:25,479 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=970
+2014-11-21 18:42:25,479 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=10000
+2014-11-21 18:42:25,479 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-11-21 18:42:25,480 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-11-21 18:42:25,480 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=2466222080
+2014-11-21 18:42:25,480 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-11-21 18:42:25,480 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=9778577408
+2014-11-21 18:42:25,480 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=10000
+2014-11-21 18:42:25,666 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' for reading
+2014-11-21 18:42:25,773 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' for reading
+2014-11-21 18:42:25,811 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' for reading
+2014-11-21 18:42:25,902 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' for reading
+2014-11-21 18:42:25,938 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' for reading
+2014-11-21 18:42:26,002 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:42:26,028 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:42:26,057 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:42:26,087 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:42:26,117 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:42:26,272 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/currentCentroids'
+2014-11-21 18:42:26,421 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:42:26,435 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' in S3
+2014-11-21 18:42:26,469 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000 len:259 sec:0
+2014-11-21 18:42:26,469 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:42:26,484 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' in S3
+2014-11-21 18:42:26,522 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001 len:273 sec:0
+2014-11-21 18:42:26,523 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:42:26,537 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' in S3
+2014-11-21 18:42:26,573 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002 len:258 sec:0
+2014-11-21 18:42:26,573 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:42:26,591 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' in S3
+2014-11-21 18:42:26,645 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003 len:271 sec:0
+2014-11-21 18:42:26,646 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:42:26,663 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' in S3
+2014-11-21 18:42:26,696 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004 len:269 sec:0
+2014-11-21 18:42:26,760 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/newCentroids'
+2014-11-21 18:42:26,975 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-11-21 18:42:26,975 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 20
+2014-11-21 18:42:26,975 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-11-21 18:42:28,138 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-11-21 18:42:28,198 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-11-21 18:42:28,198 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/data/millionSongs.txt' for reading
+2014-11-21 18:42:28,675 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201411211822_0009
+2014-11-21 18:42:29,677 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-11-21 18:43:10,811 INFO org.apache.hadoop.mapred.JobClient (main):  map 10% reduce 0%
+2014-11-21 18:43:22,851 INFO org.apache.hadoop.mapred.JobClient (main):  map 20% reduce 0%
+2014-11-21 18:43:37,906 INFO org.apache.hadoop.mapred.JobClient (main):  map 30% reduce 0%
+2014-11-21 18:43:40,914 INFO org.apache.hadoop.mapred.JobClient (main):  map 40% reduce 2%
+2014-11-21 18:43:43,923 INFO org.apache.hadoop.mapred.JobClient (main):  map 50% reduce 2%
+2014-11-21 18:43:46,932 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 2%
+2014-11-21 18:43:52,950 INFO org.apache.hadoop.mapred.JobClient (main):  map 70% reduce 2%
+2014-11-21 18:43:55,959 INFO org.apache.hadoop.mapred.JobClient (main):  map 70% reduce 4%
+2014-11-21 18:43:58,968 INFO org.apache.hadoop.mapred.JobClient (main):  map 80% reduce 4%
+2014-11-21 18:44:04,985 INFO org.apache.hadoop.mapred.JobClient (main):  map 90% reduce 4%
+2014-11-21 18:44:05,988 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 4%
+2014-11-21 18:44:08,996 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 10%
+2014-11-21 18:44:12,005 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 22%
+2014-11-21 18:44:14,011 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 31%
+2014-11-21 18:44:15,014 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 51%
+2014-11-21 18:44:17,020 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 57%
+2014-11-21 18:44:18,024 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 79%
+2014-11-21 18:44:21,034 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 93%
+2014-11-21 18:44:24,043 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 99%
+2014-11-21 18:44:27,052 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-11-21 18:44:28,057 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201411211822_0009_r_000001_1, Status : FAILED
+2014-11-21 18:44:32,114 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201411211822_0009_r_000002_1, Status : FAILED
+2014-11-21 18:44:32,168 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201411211822_0009
+2014-11-21 18:44:32,173 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 29
+2014-11-21 18:44:32,173 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-11-21 18:44:32,173 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=7
+2014-11-21 18:44:32,173 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=368433
+2014-11-21 18:44:32,173 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-11-21 18:44:32,174 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-11-21 18:44:32,174 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=18
+2014-11-21 18:44:32,174 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=360890
+2014-11-21 18:44:32,174 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-11-21 18:44:32,174 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=1328
+2014-11-21 18:44:32,174 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-11-21 18:44:32,175 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=869277
+2014-11-21 18:44:32,175 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=970
+2014-11-21 18:44:32,175 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=1352023
+2014-11-21 18:44:32,175 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=2140283
+2014-11-21 18:44:32,175 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=1328
+2014-11-21 18:44:32,175 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-11-21 18:44:32,176 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=1338723
+2014-11-21 18:44:32,176 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-11-21 18:44:32,176 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=887326
+2014-11-21 18:44:32,176 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=10000
+2014-11-21 18:44:32,176 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=887326
+2014-11-21 18:44:32,177 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=20000
+2014-11-21 18:44:32,177 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=1263308
+2014-11-21 18:44:32,177 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=1642717184
+2014-11-21 18:44:32,177 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=26410
+2014-11-21 18:44:32,177 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-11-21 18:44:32,177 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=970
+2014-11-21 18:44:32,177 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=10000
+2014-11-21 18:44:32,177 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-11-21 18:44:32,178 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-11-21 18:44:32,178 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=2474115072
+2014-11-21 18:44:32,178 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-11-21 18:44:32,178 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=9738137600
+2014-11-21 18:44:32,178 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=10000
+2014-11-21 18:44:32,319 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' for reading
+2014-11-21 18:44:32,343 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' for reading
+2014-11-21 18:44:32,364 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' for reading
+2014-11-21 18:44:32,386 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' for reading
+2014-11-21 18:44:32,408 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' for reading
+2014-11-21 18:44:32,470 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:44:32,495 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:44:32,518 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:44:32,574 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:44:32,596 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:44:32,725 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/currentCentroids'
+2014-11-21 18:44:32,835 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:44:32,849 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' in S3
+2014-11-21 18:44:32,888 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000 len:259 sec:0
+2014-11-21 18:44:32,889 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:44:32,901 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' in S3
+2014-11-21 18:44:32,940 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001 len:273 sec:0
+2014-11-21 18:44:32,940 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:44:32,953 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' in S3
+2014-11-21 18:44:32,995 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002 len:254 sec:0
+2014-11-21 18:44:32,995 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:44:33,008 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' in S3
+2014-11-21 18:44:33,044 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003 len:272 sec:0
+2014-11-21 18:44:33,045 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:44:33,059 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' in S3
+2014-11-21 18:44:33,105 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004 len:270 sec:0
+2014-11-21 18:44:33,160 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/newCentroids'
+2014-11-21 18:44:33,306 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-11-21 18:44:33,306 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 20
+2014-11-21 18:44:33,306 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-11-21 18:44:34,728 INFO org.apache.hadoop.security.ShellBasedUnixGroupsMapping (main): add hadoop to shell userGroupsCache
+2014-11-21 18:44:34,728 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-11-21 18:44:34,800 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-11-21 18:44:34,800 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/data/millionSongs.txt' for reading
+2014-11-21 18:44:35,229 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201411211822_0010
+2014-11-21 18:44:36,231 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-11-21 18:45:19,862 INFO org.apache.hadoop.mapred.JobClient (main):  map 10% reduce 0%
+2014-11-21 18:45:34,958 INFO org.apache.hadoop.mapred.JobClient (main):  map 20% reduce 0%
+2014-11-21 18:45:46,995 INFO org.apache.hadoop.mapred.JobClient (main):  map 40% reduce 0%
+2014-11-21 18:45:50,004 INFO org.apache.hadoop.mapred.JobClient (main):  map 40% reduce 1%
+2014-11-21 18:45:53,020 INFO org.apache.hadoop.mapred.JobClient (main):  map 50% reduce 1%
+2014-11-21 18:45:56,028 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 1%
+2014-11-21 18:45:59,037 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 3%
+2014-11-21 18:46:02,046 INFO org.apache.hadoop.mapred.JobClient (main):  map 70% reduce 3%
+2014-11-21 18:46:08,062 INFO org.apache.hadoop.mapred.JobClient (main):  map 80% reduce 4%
+2014-11-21 18:46:14,078 INFO org.apache.hadoop.mapred.JobClient (main):  map 90% reduce 5%
+2014-11-21 18:46:20,097 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 17%
+2014-11-21 18:46:23,105 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 18%
+2014-11-21 18:46:24,108 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 24%
+2014-11-21 18:46:26,114 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 43%
+2014-11-21 18:46:29,122 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 67%
+2014-11-21 18:46:32,130 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 85%
+2014-11-21 18:46:33,133 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 99%
+2014-11-21 18:46:35,140 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-11-21 18:46:37,147 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201411211822_0010_r_000004_1, Status : FAILED
+2014-11-21 18:46:40,198 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201411211822_0010
+2014-11-21 18:46:40,203 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 29
+2014-11-21 18:46:40,203 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-11-21 18:46:40,203 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=7
+2014-11-21 18:46:40,203 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=428850
+2014-11-21 18:46:40,203 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-11-21 18:46:40,203 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-11-21 18:46:40,203 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=18
+2014-11-21 18:46:40,204 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=359776
+2014-11-21 18:46:40,204 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-11-21 18:46:40,204 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=1331
+2014-11-21 18:46:40,204 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-11-21 18:46:40,204 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=870109
+2014-11-21 18:46:40,204 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=970
+2014-11-21 18:46:40,204 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=1343767
+2014-11-21 18:46:40,213 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=2140522
+2014-11-21 18:46:40,213 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=1331
+2014-11-21 18:46:40,213 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-11-21 18:46:40,213 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=1330487
+2014-11-21 18:46:40,213 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-11-21 18:46:40,213 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=886733
+2014-11-21 18:46:40,213 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=10000
+2014-11-21 18:46:40,214 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=886733
+2014-11-21 18:46:40,214 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=20000
+2014-11-21 18:46:40,214 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=1263308
+2014-11-21 18:46:40,214 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=1649672192
+2014-11-21 18:46:40,214 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=25250
+2014-11-21 18:46:40,214 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-11-21 18:46:40,214 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=970
+2014-11-21 18:46:40,214 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=10000
+2014-11-21 18:46:40,214 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-11-21 18:46:40,215 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-11-21 18:46:40,215 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=2523521024
+2014-11-21 18:46:40,215 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-11-21 18:46:40,215 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=9821622272
+2014-11-21 18:46:40,215 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=10000
+2014-11-21 18:46:40,341 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' for reading
+2014-11-21 18:46:40,364 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' for reading
+2014-11-21 18:46:40,400 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' for reading
+2014-11-21 18:46:40,432 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' for reading
+2014-11-21 18:46:40,473 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' for reading
+2014-11-21 18:46:40,656 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:46:40,688 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:46:40,720 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:46:40,753 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:46:40,785 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:46:41,093 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/currentCentroids'
+2014-11-21 18:46:41,325 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:46:41,340 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' in S3
+2014-11-21 18:46:41,389 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000 len:256 sec:0
+2014-11-21 18:46:41,390 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:46:41,410 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' in S3
+2014-11-21 18:46:41,448 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001 len:274 sec:0
+2014-11-21 18:46:41,448 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:46:41,460 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' in S3
+2014-11-21 18:46:41,482 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002 len:258 sec:0
+2014-11-21 18:46:41,483 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:46:41,496 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' in S3
+2014-11-21 18:46:41,519 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003 len:272 sec:0
+2014-11-21 18:46:41,520 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:46:41,533 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' in S3
+2014-11-21 18:46:41,555 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004 len:271 sec:0
+2014-11-21 18:46:41,636 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/newCentroids'
+2014-11-21 18:46:41,787 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-11-21 18:46:41,787 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 20
+2014-11-21 18:46:41,787 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-11-21 18:46:42,866 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-11-21 18:46:42,969 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-11-21 18:46:42,969 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/data/millionSongs.txt' for reading
+2014-11-21 18:46:43,462 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201411211822_0011
+2014-11-21 18:46:44,463 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-11-21 18:47:26,596 INFO org.apache.hadoop.mapred.JobClient (main):  map 10% reduce 0%
+2014-11-21 18:47:38,632 INFO org.apache.hadoop.mapred.JobClient (main):  map 20% reduce 0%
+2014-11-21 18:47:53,675 INFO org.apache.hadoop.mapred.JobClient (main):  map 30% reduce 0%
+2014-11-21 18:47:56,683 INFO org.apache.hadoop.mapred.JobClient (main):  map 40% reduce 0%
+2014-11-21 18:47:59,691 INFO org.apache.hadoop.mapred.JobClient (main):  map 50% reduce 2%
+2014-11-21 18:48:02,700 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 2%
+2014-11-21 18:48:08,722 INFO org.apache.hadoop.mapred.JobClient (main):  map 70% reduce 3%
+2014-11-21 18:48:14,739 INFO org.apache.hadoop.mapred.JobClient (main):  map 80% reduce 4%
+2014-11-21 18:48:17,747 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 4%
+2014-11-21 18:48:20,755 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 9%
+2014-11-21 18:48:23,764 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 19%
+2014-11-21 18:48:26,777 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 79%
+2014-11-21 18:48:29,785 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 95%
+2014-11-21 18:48:32,805 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-11-21 18:48:37,821 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201411211822_0011
+2014-11-21 18:48:37,825 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 29
+2014-11-21 18:48:37,825 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-11-21 18:48:37,825 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=7
+2014-11-21 18:48:37,825 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=285312
+2014-11-21 18:48:37,825 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-11-21 18:48:37,826 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-11-21 18:48:37,826 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=17
+2014-11-21 18:48:37,826 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=319371
+2014-11-21 18:48:37,826 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-11-21 18:48:37,826 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=1327
+2014-11-21 18:48:37,826 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-11-21 18:48:37,826 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=871399
+2014-11-21 18:48:37,827 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=970
+2014-11-21 18:48:37,827 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=1346397
+2014-11-21 18:48:37,827 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=2140875
+2014-11-21 18:48:37,827 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=1327
+2014-11-21 18:48:37,827 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-11-21 18:48:37,827 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=1333087
+2014-11-21 18:48:37,827 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-11-21 18:48:37,828 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=885796
+2014-11-21 18:48:37,828 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=10000
+2014-11-21 18:48:37,828 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=885796
+2014-11-21 18:48:37,828 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=20000
+2014-11-21 18:48:37,829 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=1263308
+2014-11-21 18:48:37,829 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=1639399424
+2014-11-21 18:48:37,829 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=28960
+2014-11-21 18:48:37,829 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-11-21 18:48:37,829 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=970
+2014-11-21 18:48:37,829 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=10000
+2014-11-21 18:48:37,829 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-11-21 18:48:37,829 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-11-21 18:48:37,829 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=2481168384
+2014-11-21 18:48:37,829 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-11-21 18:48:37,830 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=9800712192
+2014-11-21 18:48:37,830 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=10000
+2014-11-21 18:48:37,999 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' for reading
+2014-11-21 18:48:38,029 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' for reading
+2014-11-21 18:48:38,058 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' for reading
+2014-11-21 18:48:38,089 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' for reading
+2014-11-21 18:48:38,118 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' for reading
+2014-11-21 18:48:38,178 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:48:38,209 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:48:38,237 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:48:38,263 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:48:38,289 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:48:38,486 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/currentCentroids'
+2014-11-21 18:48:38,742 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:48:38,769 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' in S3
+2014-11-21 18:48:38,799 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000 len:258 sec:0
+2014-11-21 18:48:38,799 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:48:38,814 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' in S3
+2014-11-21 18:48:38,847 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001 len:271 sec:0
+2014-11-21 18:48:38,848 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:48:38,862 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' in S3
+2014-11-21 18:48:38,909 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002 len:258 sec:0
+2014-11-21 18:48:38,909 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:48:38,924 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' in S3
+2014-11-21 18:48:38,978 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003 len:268 sec:0
+2014-11-21 18:48:38,978 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:48:38,994 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' in S3
+2014-11-21 18:48:39,019 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004 len:272 sec:0
+2014-11-21 18:48:39,099 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/newCentroids'
+2014-11-21 18:48:39,277 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-11-21 18:48:39,278 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 20
+2014-11-21 18:48:39,278 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-11-21 18:48:40,522 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-11-21 18:48:40,593 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-11-21 18:48:40,593 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/data/millionSongs.txt' for reading
+2014-11-21 18:48:41,032 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201411211822_0012
+2014-11-21 18:48:42,033 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-11-21 18:49:24,184 INFO org.apache.hadoop.mapred.JobClient (main):  map 10% reduce 0%
+2014-11-21 18:49:36,229 INFO org.apache.hadoop.mapred.JobClient (main):  map 20% reduce 0%
+2014-11-21 18:49:51,270 INFO org.apache.hadoop.mapred.JobClient (main):  map 30% reduce 0%
+2014-11-21 18:49:54,278 INFO org.apache.hadoop.mapred.JobClient (main):  map 40% reduce 2%
+2014-11-21 18:49:57,286 INFO org.apache.hadoop.mapred.JobClient (main):  map 50% reduce 2%
+2014-11-21 18:50:00,294 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 2%
+2014-11-21 18:50:03,303 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 3%
+2014-11-21 18:50:06,311 INFO org.apache.hadoop.mapred.JobClient (main):  map 70% reduce 4%
+2014-11-21 18:50:12,357 INFO org.apache.hadoop.mapred.JobClient (main):  map 80% reduce 4%
+2014-11-21 18:50:18,374 INFO org.apache.hadoop.mapred.JobClient (main):  map 90% reduce 5%
+2014-11-21 18:50:21,382 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 10%
+2014-11-21 18:50:24,391 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 16%
+2014-11-21 18:50:27,400 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 38%
+2014-11-21 18:50:30,409 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 82%
+2014-11-21 18:50:33,427 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 99%
+2014-11-21 18:50:39,444 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-11-21 18:50:44,460 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201411211822_0012
+2014-11-21 18:50:44,465 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 29
+2014-11-21 18:50:44,465 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-11-21 18:50:44,465 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=6
+2014-11-21 18:50:44,465 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=407095
+2014-11-21 18:50:44,465 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-11-21 18:50:44,466 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-11-21 18:50:44,466 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=18
+2014-11-21 18:50:44,466 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=349318
+2014-11-21 18:50:44,466 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-11-21 18:50:44,466 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=1323
+2014-11-21 18:50:44,466 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-11-21 18:50:44,466 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=870419
+2014-11-21 18:50:44,467 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=970
+2014-11-21 18:50:44,467 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=1349209
+2014-11-21 18:50:44,467 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=2139391
+2014-11-21 18:50:44,467 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=1323
+2014-11-21 18:50:44,467 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-11-21 18:50:44,467 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=1335939
+2014-11-21 18:50:44,468 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-11-21 18:50:44,468 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=885292
+2014-11-21 18:50:44,468 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=10000
+2014-11-21 18:50:44,468 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=885292
+2014-11-21 18:50:44,468 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=20000
+2014-11-21 18:50:44,469 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=1263308
+2014-11-21 18:50:44,469 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=1645744128
+2014-11-21 18:50:44,469 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=25450
+2014-11-21 18:50:44,469 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-11-21 18:50:44,469 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=970
+2014-11-21 18:50:44,469 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=10000
+2014-11-21 18:50:44,469 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-11-21 18:50:44,469 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-11-21 18:50:44,469 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=2472415232
+2014-11-21 18:50:44,469 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-11-21 18:50:44,469 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=9716342784
+2014-11-21 18:50:44,469 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=10000
+2014-11-21 18:50:44,610 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' for reading
+2014-11-21 18:50:44,635 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' for reading
+2014-11-21 18:50:44,662 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' for reading
+2014-11-21 18:50:44,687 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' for reading
+2014-11-21 18:50:44,718 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' for reading
+2014-11-21 18:50:44,778 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:50:44,802 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:50:44,844 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:50:44,875 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:50:44,903 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:50:45,059 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/currentCentroids'
+2014-11-21 18:50:45,273 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:50:45,286 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' in S3
+2014-11-21 18:50:45,346 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000 len:259 sec:0
+2014-11-21 18:50:45,346 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:50:45,362 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' in S3
+2014-11-21 18:50:45,428 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001 len:270 sec:0
+2014-11-21 18:50:45,428 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:50:45,442 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' in S3
+2014-11-21 18:50:45,484 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002 len:255 sec:0
+2014-11-21 18:50:45,484 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:50:45,504 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' in S3
+2014-11-21 18:50:45,554 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003 len:271 sec:0
+2014-11-21 18:50:45,554 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:50:45,567 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' in S3
+2014-11-21 18:50:45,611 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004 len:270 sec:0
+2014-11-21 18:50:45,669 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/newCentroids'
+2014-11-21 18:50:45,860 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-11-21 18:50:45,860 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 20
+2014-11-21 18:50:45,860 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-11-21 18:50:47,221 INFO org.apache.hadoop.security.ShellBasedUnixGroupsMapping (main): add hadoop to shell userGroupsCache
+2014-11-21 18:50:47,222 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-11-21 18:50:47,273 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-11-21 18:50:47,273 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/data/millionSongs.txt' for reading
+2014-11-21 18:50:47,688 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201411211822_0013
+2014-11-21 18:50:48,690 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-11-21 18:51:39,833 INFO org.apache.hadoop.mapred.JobClient (main):  map 10% reduce 0%
+2014-11-21 18:51:51,891 INFO org.apache.hadoop.mapred.JobClient (main):  map 20% reduce 0%
+2014-11-21 18:52:00,916 INFO org.apache.hadoop.mapred.JobClient (main):  map 30% reduce 0%
+2014-11-21 18:52:03,925 INFO org.apache.hadoop.mapred.JobClient (main):  map 40% reduce 0%
+2014-11-21 18:52:09,942 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 0%
+2014-11-21 18:52:15,976 INFO org.apache.hadoop.mapred.JobClient (main):  map 70% reduce 4%
+2014-11-21 18:52:21,995 INFO org.apache.hadoop.mapred.JobClient (main):  map 90% reduce 4%
+2014-11-21 18:52:28,012 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 10%
+2014-11-21 18:52:31,020 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 12%
+2014-11-21 18:52:34,041 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 31%
+2014-11-21 18:52:37,050 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 65%
+2014-11-21 18:52:40,060 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 79%
+2014-11-21 18:52:43,070 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 95%
+2014-11-21 18:52:46,078 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-11-21 18:52:48,087 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201411211822_0013_r_000001_1, Status : FAILED
+2014-11-21 18:52:51,153 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201411211822_0013
+2014-11-21 18:52:51,157 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 29
+2014-11-21 18:52:51,157 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-11-21 18:52:51,157 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=8
+2014-11-21 18:52:51,157 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=286017
+2014-11-21 18:52:51,157 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-11-21 18:52:51,157 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-11-21 18:52:51,157 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=17
+2014-11-21 18:52:51,158 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=328150
+2014-11-21 18:52:51,158 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-11-21 18:52:51,158 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=1297
+2014-11-21 18:52:51,158 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-11-21 18:52:51,158 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=870279
+2014-11-21 18:52:51,158 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=970
+2014-11-21 18:52:51,158 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=1345657
+2014-11-21 18:52:51,159 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=2138513
+2014-11-21 18:52:51,159 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=1297
+2014-11-21 18:52:51,159 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-11-21 18:52:51,159 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=1332407
+2014-11-21 18:52:51,159 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-11-21 18:52:51,159 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=884554
+2014-11-21 18:52:51,159 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=10000
+2014-11-21 18:52:51,160 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=884554
+2014-11-21 18:52:51,160 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=20000
+2014-11-21 18:52:51,160 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=1263308
+2014-11-21 18:52:51,160 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=1645883392
+2014-11-21 18:52:51,169 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=26400
+2014-11-21 18:52:51,169 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-11-21 18:52:51,169 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=970
+2014-11-21 18:52:51,169 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=10000
+2014-11-21 18:52:51,169 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-11-21 18:52:51,169 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-11-21 18:52:51,169 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=2527092736
+2014-11-21 18:52:51,169 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-11-21 18:52:51,169 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=9716031488
+2014-11-21 18:52:51,169 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=10000
+2014-11-21 18:52:51,309 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' for reading
+2014-11-21 18:52:51,336 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' for reading
+2014-11-21 18:52:51,362 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' for reading
+2014-11-21 18:52:51,390 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' for reading
+2014-11-21 18:52:51,415 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' for reading
+2014-11-21 18:52:51,584 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:52:51,649 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:52:51,675 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:52:51,704 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:52:51,750 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:52:51,919 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/currentCentroids'
+2014-11-21 18:52:52,085 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:52:52,099 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' in S3
+2014-11-21 18:52:52,141 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000 len:227 sec:0
+2014-11-21 18:52:52,142 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:52:52,154 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' in S3
+2014-11-21 18:52:52,195 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001 len:271 sec:0
+2014-11-21 18:52:52,196 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:52:52,210 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' in S3
+2014-11-21 18:52:52,247 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002 len:258 sec:0
+2014-11-21 18:52:52,248 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:52:52,263 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' in S3
+2014-11-21 18:52:52,297 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003 len:270 sec:0
+2014-11-21 18:52:52,297 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:52:52,312 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' in S3
+2014-11-21 18:52:52,351 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004 len:269 sec:0
+2014-11-21 18:52:52,416 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/newCentroids'
+2014-11-21 18:52:52,610 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-11-21 18:52:52,610 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 20
+2014-11-21 18:52:52,610 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-11-21 18:52:57,164 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-11-21 18:52:57,223 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-11-21 18:52:57,223 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/data/millionSongs.txt' for reading
+2014-11-21 18:52:58,540 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201411211822_0014
+2014-11-21 18:52:59,541 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-11-21 18:53:39,701 INFO org.apache.hadoop.mapred.JobClient (main):  map 10% reduce 0%
+2014-11-21 18:53:51,768 INFO org.apache.hadoop.mapred.JobClient (main):  map 20% reduce 0%
+2014-11-21 18:54:06,810 INFO org.apache.hadoop.mapred.JobClient (main):  map 30% reduce 0%
+2014-11-21 18:54:09,819 INFO org.apache.hadoop.mapred.JobClient (main):  map 40% reduce 1%
+2014-11-21 18:54:12,829 INFO org.apache.hadoop.mapred.JobClient (main):  map 50% reduce 1%
+2014-11-21 18:54:15,838 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 1%
+2014-11-21 18:54:18,845 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 4%
+2014-11-21 18:54:21,854 INFO org.apache.hadoop.mapred.JobClient (main):  map 70% reduce 4%
+2014-11-21 18:54:27,870 INFO org.apache.hadoop.mapred.JobClient (main):  map 80% reduce 4%
+2014-11-21 18:54:33,886 INFO org.apache.hadoop.mapred.JobClient (main):  map 90% reduce 5%
+2014-11-21 18:54:34,889 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 10%
+2014-11-21 18:54:40,909 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 27%
+2014-11-21 18:54:42,914 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 28%
+2014-11-21 18:54:43,917 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 56%
+2014-11-21 18:54:45,922 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 70%
+2014-11-21 18:54:46,925 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 85%
+2014-11-21 18:54:49,933 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-11-21 18:54:54,949 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201411211822_0014
+2014-11-21 18:54:54,956 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 29
+2014-11-21 18:54:54,956 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-11-21 18:54:54,956 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=7
+2014-11-21 18:54:54,956 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=360360
+2014-11-21 18:54:54,957 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-11-21 18:54:54,957 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-11-21 18:54:54,957 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=18
+2014-11-21 18:54:54,957 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=339097
+2014-11-21 18:54:54,957 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-11-21 18:54:54,957 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=1325
+2014-11-21 18:54:54,957 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-11-21 18:54:54,957 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=870959
+2014-11-21 18:54:54,958 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=970
+2014-11-21 18:54:54,958 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=1350958
+2014-11-21 18:54:54,958 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=2138972
+2014-11-21 18:54:54,958 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=1325
+2014-11-21 18:54:54,958 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-11-21 18:54:54,958 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=1338008
+2014-11-21 18:54:54,958 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-11-21 18:54:54,959 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=884333
+2014-11-21 18:54:54,959 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=10000
+2014-11-21 18:54:54,959 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=884333
+2014-11-21 18:54:54,959 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=20000
+2014-11-21 18:54:54,959 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=1263308
+2014-11-21 18:54:54,960 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=1642684416
+2014-11-21 18:54:54,960 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=25320
+2014-11-21 18:54:54,960 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-11-21 18:54:54,960 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=970
+2014-11-21 18:54:54,968 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=10000
+2014-11-21 18:54:54,968 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-11-21 18:54:54,968 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-11-21 18:54:54,968 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=2449248256
+2014-11-21 18:54:54,968 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-11-21 18:54:54,968 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=9492639744
+2014-11-21 18:54:54,969 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=10000
+2014-11-21 18:54:55,128 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' for reading
+2014-11-21 18:54:55,154 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' for reading
+2014-11-21 18:54:55,180 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' for reading
+2014-11-21 18:54:55,207 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' for reading
+2014-11-21 18:54:55,234 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' for reading
+2014-11-21 18:54:55,293 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:54:55,525 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:54:55,553 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:54:55,578 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:54:55,606 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:54:55,751 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/currentCentroids'
+2014-11-21 18:54:55,868 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:54:55,884 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' in S3
+2014-11-21 18:54:55,912 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000 len:256 sec:0
+2014-11-21 18:54:55,912 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:54:55,928 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' in S3
+2014-11-21 18:54:55,960 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001 len:270 sec:0
+2014-11-21 18:54:55,960 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:54:55,975 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' in S3
+2014-11-21 18:54:56,002 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002 len:257 sec:0
+2014-11-21 18:54:56,002 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:54:56,020 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' in S3
+2014-11-21 18:54:56,061 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003 len:272 sec:0
+2014-11-21 18:54:56,061 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:54:56,078 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' in S3
+2014-11-21 18:54:56,115 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004 len:270 sec:0
+2014-11-21 18:54:56,173 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/newCentroids'
+2014-11-21 18:54:56,320 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-11-21 18:54:56,320 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 20
+2014-11-21 18:54:56,320 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-11-21 18:54:57,674 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-11-21 18:54:57,737 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-11-21 18:54:57,737 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/data/millionSongs.txt' for reading
+2014-11-21 18:54:58,311 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201411211822_0015
+2014-11-21 18:54:59,341 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-11-21 18:55:40,453 INFO org.apache.hadoop.mapred.JobClient (main):  map 10% reduce 0%
+2014-11-21 18:55:55,493 INFO org.apache.hadoop.mapred.JobClient (main):  map 20% reduce 0%
+2014-11-21 18:56:07,528 INFO org.apache.hadoop.mapred.JobClient (main):  map 30% reduce 0%
+2014-11-21 18:56:10,549 INFO org.apache.hadoop.mapred.JobClient (main):  map 40% reduce 0%
+2014-11-21 18:56:13,566 INFO org.apache.hadoop.mapred.JobClient (main):  map 50% reduce 2%
+2014-11-21 18:56:16,579 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 2%
+2014-11-21 18:56:22,600 INFO org.apache.hadoop.mapred.JobClient (main):  map 70% reduce 3%
+2014-11-21 18:56:28,615 INFO org.apache.hadoop.mapred.JobClient (main):  map 80% reduce 4%
+2014-11-21 18:56:32,658 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 4%
+2014-11-21 18:56:35,666 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 8%
+2014-11-21 18:56:37,671 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 9%
+2014-11-21 18:56:38,673 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 10%
+2014-11-21 18:56:40,678 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 24%
+2014-11-21 18:56:41,681 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 43%
+2014-11-21 18:56:43,687 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 64%
+2014-11-21 18:56:44,690 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 78%
+2014-11-21 18:56:46,695 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 95%
+2014-11-21 18:56:49,704 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 99%
+2014-11-21 18:56:52,713 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-11-21 18:56:57,728 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201411211822_0015_r_000002_1, Status : FAILED
+2014-11-21 18:56:57,790 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201411211822_0015
+2014-11-21 18:56:57,793 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 29
+2014-11-21 18:56:57,793 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-11-21 18:56:57,793 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=7
+2014-11-21 18:56:57,808 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=305044
+2014-11-21 18:56:57,808 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-11-21 18:56:57,808 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-11-21 18:56:57,808 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=17
+2014-11-21 18:56:57,809 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=347750
+2014-11-21 18:56:57,809 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-11-21 18:56:57,809 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=1292
+2014-11-21 18:56:57,809 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-11-21 18:56:57,809 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=871395
+2014-11-21 18:56:57,809 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=970
+2014-11-21 18:56:57,810 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=1349357
+2014-11-21 18:56:57,810 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=2139484
+2014-11-21 18:56:57,810 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=1292
+2014-11-21 18:56:57,810 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-11-21 18:56:57,810 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=1336107
+2014-11-21 18:56:57,810 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-11-21 18:56:57,810 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=884409
+2014-11-21 18:56:57,811 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=10000
+2014-11-21 18:56:57,811 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=884409
+2014-11-21 18:56:57,811 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=20000
+2014-11-21 18:56:57,811 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=1263308
+2014-11-21 18:56:57,812 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=1637072896
+2014-11-21 18:56:57,812 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=27440
+2014-11-21 18:56:57,813 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-11-21 18:56:57,813 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=970
+2014-11-21 18:56:57,813 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=10000
+2014-11-21 18:56:57,813 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-11-21 18:56:57,813 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-11-21 18:56:57,813 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=2462187520
+2014-11-21 18:56:57,813 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-11-21 18:56:57,813 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=9812643840
+2014-11-21 18:56:57,813 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=10000
+2014-11-21 18:56:58,229 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' for reading
+2014-11-21 18:56:58,258 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' for reading
+2014-11-21 18:56:58,286 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' for reading
+2014-11-21 18:56:58,316 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' for reading
+2014-11-21 18:56:58,350 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' for reading
+2014-11-21 18:56:58,409 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:56:58,467 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:56:58,496 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:56:58,523 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:56:58,555 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:56:58,725 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/currentCentroids'
+2014-11-21 18:56:58,843 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:56:58,901 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' in S3
+2014-11-21 18:56:58,927 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000 len:233 sec:0
+2014-11-21 18:56:58,927 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:56:58,944 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' in S3
+2014-11-21 18:56:58,989 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001 len:271 sec:0
+2014-11-21 18:56:58,989 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:56:59,007 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' in S3
+2014-11-21 18:56:59,059 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002 len:256 sec:0
+2014-11-21 18:56:59,059 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:56:59,072 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' in S3
+2014-11-21 18:56:59,111 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003 len:265 sec:0
+2014-11-21 18:56:59,112 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:56:59,129 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' in S3
+2014-11-21 18:56:59,155 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004 len:267 sec:0
+2014-11-21 18:56:59,220 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/newCentroids'
+2014-11-21 18:56:59,396 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-11-21 18:56:59,397 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 20
+2014-11-21 18:56:59,397 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-11-21 18:57:01,741 INFO org.apache.hadoop.security.ShellBasedUnixGroupsMapping (main): add hadoop to shell userGroupsCache
+2014-11-21 18:57:01,741 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-11-21 18:57:01,815 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-11-21 18:57:01,815 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/data/millionSongs.txt' for reading
+2014-11-21 18:57:02,339 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201411211822_0016
+2014-11-21 18:57:03,341 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-11-21 18:57:46,457 INFO org.apache.hadoop.mapred.JobClient (main):  map 10% reduce 0%
+2014-11-21 18:57:58,486 INFO org.apache.hadoop.mapred.JobClient (main):  map 20% reduce 0%
+2014-11-21 18:58:10,518 INFO org.apache.hadoop.mapred.JobClient (main):  map 30% reduce 0%
+2014-11-21 18:58:13,526 INFO org.apache.hadoop.mapred.JobClient (main):  map 40% reduce 1%
+2014-11-21 18:58:16,535 INFO org.apache.hadoop.mapred.JobClient (main):  map 50% reduce 1%
+2014-11-21 18:58:19,543 INFO org.apache.hadoop.mapred.JobClient (main):  map 60% reduce 2%
+2014-11-21 18:58:25,560 INFO org.apache.hadoop.mapred.JobClient (main):  map 70% reduce 4%
+2014-11-21 18:58:31,578 INFO org.apache.hadoop.mapred.JobClient (main):  map 80% reduce 4%
+2014-11-21 18:58:37,594 INFO org.apache.hadoop.mapred.JobClient (main):  map 90% reduce 4%
+2014-11-21 18:58:40,602 INFO org.apache.hadoop.mapred.JobClient (main):  map 90% reduce 5%
+2014-11-21 18:58:41,605 INFO org.apache.hadoop.mapred.JobClient (main):  map 90% reduce 16%
+2014-11-21 18:58:43,611 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 16%
+2014-11-21 18:58:48,624 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 22%
+2014-11-21 18:58:49,627 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 24%
+2014-11-21 18:58:50,630 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 31%
+2014-11-21 18:58:52,636 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 44%
+2014-11-21 18:58:53,639 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 58%
+2014-11-21 18:58:54,642 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 69%
+2014-11-21 18:58:56,647 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 95%
+2014-11-21 18:58:57,650 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 97%
+2014-11-21 18:58:59,656 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 98%
+2014-11-21 18:59:02,666 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2014-11-21 18:59:04,674 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201411211822_0016_r_000001_1, Status : FAILED
+2014-11-21 18:59:06,754 INFO org.apache.hadoop.mapred.JobClient (main): Task Id : attempt_201411211822_0016_r_000002_1, Status : FAILED
+2014-11-21 18:59:07,803 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201411211822_0016
+2014-11-21 18:59:07,808 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 29
+2014-11-21 18:59:07,808 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters 
+2014-11-21 18:59:07,808 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=7
+2014-11-21 18:59:07,809 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=387999
+2014-11-21 18:59:07,809 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2014-11-21 18:59:07,821 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2014-11-21 18:59:07,822 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=18
+2014-11-21 18:59:07,822 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=360967
+2014-11-21 18:59:07,822 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters 
+2014-11-21 18:59:07,822 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=1326
+2014-11-21 18:59:07,822 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2014-11-21 18:59:07,822 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=872801
+2014-11-21 18:59:07,822 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=970
+2014-11-21 18:59:07,822 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_READ=1333051
+2014-11-21 18:59:07,823 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=2140573
+2014-11-21 18:59:07,823 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=1326
+2014-11-21 18:59:07,823 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters 
+2014-11-21 18:59:07,823 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=1320131
+2014-11-21 18:59:07,823 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2014-11-21 18:59:07,823 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=884092
+2014-11-21 18:59:07,823 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=10000
+2014-11-21 18:59:07,824 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=884092
+2014-11-21 18:59:07,824 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=20000
+2014-11-21 18:59:07,824 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=1263308
+2014-11-21 18:59:07,824 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=1652658176
+2014-11-21 18:59:07,824 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=24880
+2014-11-21 18:59:07,824 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2014-11-21 18:59:07,824 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=970
+2014-11-21 18:59:07,824 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=10000
+2014-11-21 18:59:07,824 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=5
+2014-11-21 18:59:07,824 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2014-11-21 18:59:07,824 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=2531278848
+2014-11-21 18:59:07,825 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=5
+2014-11-21 18:59:07,825 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=10183077888
+2014-11-21 18:59:07,825 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=10000
+2014-11-21 18:59:08,009 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' for reading
+2014-11-21 18:59:08,041 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' for reading
+2014-11-21 18:59:08,072 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' for reading
+2014-11-21 18:59:08,102 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' for reading
+2014-11-21 18:59:08,128 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' for reading
+2014-11-21 18:59:08,189 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:59:08,222 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:59:08,250 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:59:08,276 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:59:08,302 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:59:08,584 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/currentCentroids'
+2014-11-21 18:59:08,699 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00000' for reading
+2014-11-21 18:59:08,714 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000' in S3
+2014-11-21 18:59:08,757 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00000 len:257 sec:0
+2014-11-21 18:59:08,757 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00001' for reading
+2014-11-21 18:59:08,777 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001' in S3
+2014-11-21 18:59:08,823 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00001 len:273 sec:0
+2014-11-21 18:59:08,823 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00002' for reading
+2014-11-21 18:59:08,838 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002' in S3
+2014-11-21 18:59:08,875 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00002 len:258 sec:0
+2014-11-21 18:59:08,875 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00003' for reading
+2014-11-21 18:59:08,891 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003' in S3
+2014-11-21 18:59:08,930 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00003 len:267 sec:0
+2014-11-21 18:59:08,930 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/project/output/kmeans5/newCentroids/part-r-00004' for reading
+2014-11-21 18:59:08,946 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Creating new file 's3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004' in S3
+2014-11-21 18:59:08,983 INFO org.apache.hadoop.fs.s3native.Jets3tNativeFileSystemStore (main): Complete s3.putObject s3://ljcmr/project/output/kmeans5/currentCentroids/part-r-00004 len:271 sec:0
+2014-11-21 18:59:09,044 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Deleting directory 's3://ljcmr/project/output/kmeans5/newCentroids'
+2014-11-21 18:59:09,273 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2014-11-21 18:59:09,273 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 20
+2014-11-21 18:59:09,273 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2014-11-21 18:59:10,687 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2014-11-21 18:59:10,739 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2014-11-21 18:59:10,739 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Opening 's3://ljcmr/data/millionSongs.txt' for reading
+2014-11-21 18:59:11,671 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201411211822_0017
+2014-11-21 18:59:12,672 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2014-11-21 18:59:52,796 INFO org.apache.hadoop.mapred.JobClient (main):  map 10% reduce 0%

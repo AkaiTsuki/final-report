@@ -1,0 +1,6 @@
+2014-11-21T16:31:53.845Z INFO Fetching jar file.
+2014-11-21T16:32:04.993Z INFO Working dir /mnt/var/lib/hadoop/steps/3
+2014-11-21T16:32:04.994Z INFO Executing /usr/java/latest/bin/java -cp /home/hadoop/conf:/usr/java/latest/lib/tools.jar:/home/hadoop:/home/hadoop/hadoop-tools.jar:/home/hadoop/hadoop-tools-1.0.3.jar:/home/hadoop/hadoop-core-1.0.3.jar:/home/hadoop/hadoop-core.jar:/home/hadoop/lib/*:/home/hadoop/lib/jetty-ext/* -Xmx1000m -Dhadoop.log.dir=/mnt/var/log/hadoop/steps/3 -Dhadoop.log.file=syslog -Dhadoop.home.dir=/home/hadoop -Dhadoop.id.str=hadoop -Dhadoop.root.logger=INFO,DRFA -Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/3/tmp -Djava.library.path=/home/hadoop/native/Linux-amd64-64 org.apache.hadoop.util.RunJar /mnt/var/lib/hadoop/steps/3/DistributedKMeans.jar s3://ljcmr/data/millionSongs.txt s3://ljcmr/project/output/kmeans3 3 15
+2014-11-21T16:54:10.783Z INFO Execution ended with ret val 0
+2014-11-21T16:54:18.344Z INFO Step created jobs: job_201411211624_0003,job_201411211624_0004,job_201411211624_0005,job_201411211624_0006,job_201411211624_0007,job_201411211624_0008,job_201411211624_0009,job_201411211624_0010,job_201411211624_0011,job_201411211624_0012,job_201411211624_0013
+2014-11-21T16:55:38.523Z INFO Step succeeded
